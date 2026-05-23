@@ -57,17 +57,17 @@ Press Enter.
 
 ### 4. Install Requirements
 
-
+```
 pip install pyqt6
-
+```
 
 ---
 
 ### 5. Run TapCalc
 
-
+```
 python main.py
-
+```
 
 ---
 
@@ -75,10 +75,10 @@ python main.py
 
 To create a standalone app:
 
-
+```
 pip install pyinstaller
 pyinstaller --onefile --windowed main.py
-
+```
 
 Your EXE will appear in:
 
@@ -92,15 +92,17 @@ dist/main.exe
 
 If using Arch Linux:
 
-
+```
+sudo pacman -S git && git clone https://github.com/lkienvinh/TapCalc.git
+cd TapCalc
 makepkg -si
+```
 
+Then run in a terminal (or open it with an applauncher):
 
-Then run:
-
-
+```
 tapcalc
-
+```
 
 ---
 
