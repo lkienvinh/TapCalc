@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=TapCalc
+Exec=tapcalc
+Icon=tapcalc
+Type=Application
+Categories=Utility;
+Terminal=false
